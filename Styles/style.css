@@ -1,0 +1,43 @@
+:root {
+    /* Spacing */
+    --space-1: 8px;  /* Small padding */
+    --space-2: 16px; /* Default padding */
+    --space-3: 24px; /* Section padding */
+    --space-4: 32px; /* Large margins */
+
+    /* Font Styles */
+    --font-primary: 'Inter', sans-serif; /* Primary Font */
+    --font-code: 'Roboto Mono', monospace; /* Code Font */
+
+    /* Font Weight Variations */
+    --fw-regular: 400;   /* Body text */
+    --fw-medium: 500;    /* Subtle emphasis */
+    --fw-semibold: 600;  /* Headings */
+    --fw-bold: 700;  /* CTAs/Strong emphasis */
+}
+
+*{
+    font-family: var(--font-primary);
+    font-weight: var(--fw-regular);
+}
+
+h1,
+h2,
+h3{
+    font-weight: var(--fw-semibold);
+}
+
+.code-block{
+    font-family: var(--font-code);
+    font-size: 14px;
+}
+
+.button {
+    font-weight: var(--fw-bold);
+}
+
+.meta {
+  font-weight: var(--fw-medium);
+  color: var(--text-light);
+  font-size: 0.875rem;
+}
